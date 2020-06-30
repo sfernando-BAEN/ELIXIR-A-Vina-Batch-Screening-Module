@@ -63,7 +63,22 @@ To do a batch docking, the (protein) receptor, small molecules, and the desired 
 Here is a [tutorial](http://vina.scripps.edu/tutorial.html) for the grid options using MTLtools.
 Then, all the information in the [conf.txt](./Vina_docking_batch_example_output_demo/conf.txt) file including "receptor, 'center_x, center_y, center_z, size_x, size_y, size_z" should be updated using the visualization software (such as Chimera or MGLtools).
 
-3.
+3. The small molecules can be prepared with open babel command lines.
+For example: file names of the molecules: Molecules_XXXX.mol2; XXXX is the IDs of the small molecules from 0001 to 2000.
+```sh
+obabel -imol2 *.mol2 -opdbqt -m
+```
+Then, all files should be saved in pdbqt format into the [ligands](./Vina_docking_batch_example_output_demo/ligands) folder.
+
+4. Open a terminal navigate to the script folder
+ ```sh
+ cd /path_to_the_script_folder/ELIXIR-A-Vina-Batch-Screening-Module/Vina_docking_batch_example_output_demo/
+ python Quickrun.py
+ ```
+(Optional: the replications for each small molecule can be edited in line34 of [Quickrun.py](ELIXIR-A-Vina-Batch-Screening-Module/Vina_docking_batch_example_output_demo/Quickrun.py), default value of the replications is 3.)
+
+5. The output files with docking poses will be saved in [out](./Vina_docking_batch_example_output_demo/out/) folder, which can be analyzed via Chimera or MGLtools.
+Also, the file [VinaScore.csv](./Vina_docking_batch_example_output_demo/VinaScore.csv) located in the script folder shows the overall performance of the docking simulation.
 
 # License
 + [Apache-2.0 License](./LICENSE)
