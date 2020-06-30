@@ -19,5 +19,8 @@ The package has been tested on the following systems:
 
 
 # Expected run time
+This demo of 20 example small molecules on an 8-threaded computer (10 minutes)
+A library of 1,600 small molecules on a 16-threaded computer (3-5 hours).
+* If the average number of atoms of small molecules is greater than 100, the time of simulation will be quite long.
 
 # Results
