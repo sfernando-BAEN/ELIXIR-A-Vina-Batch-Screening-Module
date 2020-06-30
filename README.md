@@ -4,6 +4,7 @@ Batch mode script for small molecules docking tests via Autodock Vina
 # Overview
 This is a python based batch mode script for the docking of small molecules to a pre-defined receptor in parallel. The package also provides an overall evaluation of the performance of the entire docking simulation.
 
+- [Repo Contents](#Repo-Contents)
 - [System Requirements](#System-requirements)
 - [Installation Guide](#Installation-Guide)
 - [Expected run time](#Expected-run-time)
@@ -35,7 +36,11 @@ To install numpy package on OS X & Linux:
 sudo apt install python3-pip
 pip install numpy
 ```
-## Installation time
+
+## AutoDock Vina 4.2.6
+AutoDock Vina has already been included in the [package](./Vina_Docking_batch_source_code/autodock_vina). AutoDock Vina could also be downloaded from its [official website](http://autodock.scripps.edu/downloads/autodock-registration/autodock-4-2-download-page/)
+
+# Installation time
 You can directly run [Quickrun.py](./Vina_Docking_batch_source_code/Quickrun.py) from the working folder without installation of the program itself.
 
 # Expected run time
