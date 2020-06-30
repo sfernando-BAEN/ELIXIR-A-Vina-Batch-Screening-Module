@@ -10,7 +10,7 @@ This is a python based batch mode script for the docking of small molecules to a
 - [License](#license)
 
 # Repo Contents
-- [Vina_Docking_batch_source_code](./Vina_Docking_batch_source_code/): `Python` package source code 
+- [Vina_Docking_batch_source_code](./Vina_Docking_batch_source_code/): `Python` source code with data input
 - [Vina_docking_batch_example_output_demo](./Vina_docking_batch_example_output_demo/): Demo with sample inputs and outputs
 
 # System Requirements
@@ -46,3 +46,4 @@ A library of 1,600 small molecules on a 16-threaded computer (3-5 hours).
 # Results
 
 # License
++ [Apache-2.0 License](./LICENSE)
