@@ -40,7 +40,8 @@ pip install numpy
 ## AutoDock Vina 4.2.6
 AutoDock Vina has already been included in this [package](./Vina_Docking_batch_source_code/autodock_vina). AutoDock Vina could also be downloaded from its [official website](http://autodock.scripps.edu/downloads/autodock-registration/autodock-4-2-download-page/)
 
-## [Open Babel](http://openbabel.org/wiki/Main_Page) is a good choice for ligand preparation and is not used directly in this script.
+## Open Babel 2.4.0
+[Open Babel](http://openbabel.org/wiki/Main_Page) is a good choice for ligand preparation and is not used directly in this script.
 
 # Installation time
 You can directly run [Quickrun.py](./Vina_Docking_batch_source_code/Quickrun.py) from the working folder without installation of the program itself.
