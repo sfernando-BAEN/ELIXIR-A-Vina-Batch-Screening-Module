@@ -59,7 +59,7 @@ A library of 1,600 small molecules on a 16-threaded computer (3-5 hours).
 To do a batch docking, the (protein) receptor, small molecules, and the desired grid box size should be prepared. These files should be placed in the working folder.
 1. The protein receptor file should be placed in [protein](./Vina_docking_batch_example_output_demo/protein/) folder with the extension [".pdbqt"](./Vina_docking_batch_example_output_demo/protein/SARS-COVID-2_RBD.pdbqt).
 
-2.The grid box will determine the space for small molecules to dock on the receptor. It should be noted that the larger the grid box, the slower the docking speed.
+2. The grid box will determine the space for small molecules to dock on the receptor. It should be noted that the larger the grid box, the slower the docking speed.
 Here is a [tutorial](http://vina.scripps.edu/tutorial.html) for the grid options using MTLtools.
 Then, all the information in the [conf.txt](./Vina_docking_batch_example_output_demo/conf.txt) file including "receptor, 'center_x, center_y, center_z, size_x, size_y, size_z" should be updated using the visualization software (such as Chimera or MGLtools).
 
