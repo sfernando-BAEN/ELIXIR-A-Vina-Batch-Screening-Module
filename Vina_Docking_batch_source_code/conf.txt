@@ -1,0 +1,11 @@
+receptor = ./protein/SARS-COVID-2_RBD.pdbqt
+
+center_x =  209.881
+center_y =  215.38
+center_z =  115.23
+
+size_x = 40
+size_y = 60
+size_z = 30
+
+num_modes = 9
