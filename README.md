@@ -33,7 +33,7 @@ sudo apt install python3-pip
 pip install numpy
 ```
 ## Installation time
-You can directly run the Quickrun.py(./Vina_Docking_batch_source_code/Quickrun.py) from the working folder without the installation of the program itself.
+You can directly run the [Quickrun.py](./Vina_Docking_batch_source_code/Quickrun.py) from the working folder without the installation of the program itself.
 
 # Expected run time
 This demo of 20 example small molecules on an 8-threaded computer (10 minutes)
