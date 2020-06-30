@@ -75,7 +75,7 @@ Then, all files should be saved in pdbqt format into the [ligands](./Vina_dockin
  cd /path_to_the_script_folder/ELIXIR-A-Vina-Batch-Screening-Module/Vina_docking_batch_example_output_demo/
  python Quickrun.py
  ```
-(Optional: the replications for each small molecule can be edited in line34 of [Quickrun.py](ELIXIR-A-Vina-Batch-Screening-Module/Vina_docking_batch_example_output_demo/Quickrun.py), default value of the replications is 3.)
+(Optional: the replications for each small molecule can be edited in line34 of [Quickrun.py](./Vina_docking_batch_example_output_demo/Quickrun.py), default value of the replications is 3.)
 
 5. The output files with docking poses will be saved in [out](./Vina_docking_batch_example_output_demo/out/) folder, which can be analyzed via Chimera or MGLtools.
 Also, the file [VinaScore.csv](./Vina_docking_batch_example_output_demo/VinaScore.csv) located in the script folder shows the overall performance of the docking simulation.
