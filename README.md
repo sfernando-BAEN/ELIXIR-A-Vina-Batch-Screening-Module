@@ -8,6 +8,7 @@ This is a python based batch mode script for the docking of small molecules to a
 - [System Requirements](#System-requirements)
 - [Installation Guide](#Installation-Guide)
 - [Expected run time](#Expected-run-time)
+- [Demo batch docking procedures](#demo)
 - [License](#license)
 
 # Repo Contents
@@ -43,6 +44,9 @@ AutoDock Vina has already been included in this [package](./Vina_Docking_batch_s
 ## Open Babel 2.4.0
 [Open Babel](http://openbabel.org/wiki/Main_Page) is a good choice for ligand preparation and is not used directly in this script.
 
+## UCSF Chimera 1.14 and MGLtools 1.5.7
+Both [UCSF Chimera](https://www.cgl.ucsf.edu/chimera/download.html) and [MGLtools](http://mgltools.scripps.edu/downloads) can prepare the protein pdbqt files and docking grids.
+
 # Installation time
 You can directly run [Quickrun.py](./Vina_Docking_batch_source_code/Quickrun.py) from the working folder without installation of the program itself.
 
@@ -51,7 +55,11 @@ This demo of 20 example small molecules on an 8-threaded computer (10 minutes)
 A library of 1,600 small molecules on a 16-threaded computer (3-5 hours).
 \* If the average number of atoms of small molecules is greater than 100, the time of simulation will be quite long.
 
-# Results
+# Demo batch docking procedures
+To do a batch docking, the (protein) receptor, small molecules, and the desired grid box size should be prepared. These files should be placed in the working folder.
+1. The protein receptor file should be placed in [protein](./Vina_docking_batch_example_output_demo/protein/) folder with the extension [".pdbqt"](./Vina_docking_batch_example_output_demo/protein/SARS-COVID-2_RBD.pdbqt).
+
+
 
 # License
 + [Apache-2.0 License](./LICENSE)
