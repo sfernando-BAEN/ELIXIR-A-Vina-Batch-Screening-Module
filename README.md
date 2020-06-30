@@ -8,7 +8,7 @@ This is a python based batch mode script for the docking of small molecules to a
 - [System Requirements](#System-requirements)
 - [Installation Guide](#Installation-Guide)
 - [Expected run time](#Expected-run-time)
-- [Demo batch docking procedures](#demo)
+- [Demo batch docking procedures](#Demo-batch-docking-procedures)
 - [License](#license)
 
 # Repo Contents
