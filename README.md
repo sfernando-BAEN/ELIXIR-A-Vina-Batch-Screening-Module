@@ -23,7 +23,7 @@ The package has been tested on the following systems:
 - MacOS:  macOS Mojave
 
 # Installation Guide
-To run the script, you need to install python in your environment, python versions can be 2.7.16, 3.7.4 or later. The numpy package version 1.17.2 or later is required to generate the evaluation table.
+To run the script, install python in your environment - python versions can be 2.7.16, 3.7.4 or later. The numpy package version 1.17.2 or later is required to generate the evaluation table.
 
 To install python on OS X & Linux:
 
@@ -48,7 +48,7 @@ AutoDock Vina has already been included in this [package](./Vina_Docking_batch_s
 Both [UCSF Chimera](https://www.cgl.ucsf.edu/chimera/download.html) and [MGLtools](http://mgltools.scripps.edu/downloads) can prepare the protein pdbqt files and docking grids.
 
 # Installation time
-You can directly run [Quickrun.py](./Vina_Docking_batch_source_code/Quickrun.py) from the working folder without installation of the program itself.
+The program can be directly run from the working folder without installation of the program itself [Quickrun.py](./Vina_Docking_batch_source_code/Quickrun.py).
 
 # Expected run time
 This demo of 20 example small molecules on an 8-threaded computer (10 minutes)
